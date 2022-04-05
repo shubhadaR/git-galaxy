@@ -1,4 +1,4 @@
-# Things to avoid
+# Things to avoid doing
 
 * Leaving the doors open.
 * Keeping objects at random places.
