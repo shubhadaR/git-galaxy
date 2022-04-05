@@ -12,6 +12,11 @@ To add your name read [the contributing documentation](./CONTRIBUTING.md).
 
 ---
 
+# Abin Simon
+
+* Not creating merge conflicts
+---
+
 Hi I'm Jane Doe.
 
 * Git
