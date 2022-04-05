@@ -12,9 +12,19 @@ To add your name read [the contributing documentation](./CONTRIBUTING.md).
 
 ---
 
+<<<<<<< HEAD
 # Abin Simon
 
 * Not creating merge conflicts
+=======
+Hi I am shubhada rathor 
+
+Skills:
+
+-> Git Basic
+-> Kuberenets 
+-> Docker
+>>>>>>> 76a5a9b... Updated the crew member details And the README.md new
 ---
 
 Hi I'm Jane Doe.
