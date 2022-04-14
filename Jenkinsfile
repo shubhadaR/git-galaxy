@@ -15,7 +15,7 @@ pipeline {
                 sh "helm dependency update ./mychart"
                 sh "helm lint ./mychart"
                 sh "helm package ./mychart"
-                sh "helm install --generate-name mytry ./mychart"
+                sh "helm install --generate-name ./mychart"
 
                 // To run Maven on a Windows agent, use
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
