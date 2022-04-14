@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "git clone git@github.com:shubhadaR/git-galaxy.git"
+                sh "git clone https://github.com/shubhadaR/git-galaxy.git"
 
                 // Run Maven on a Unix agent.
                 sh "helm dependency update ./mychart"
