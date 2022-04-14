@@ -20,20 +20,7 @@ pipeline {
                 // To run Maven on a Windows agent, use
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
             }
-         stage('Build') {
-            steps {
-                sh "git clone https://github.com/shubhadaR/git-galaxy.git"
-
-                // Run Maven on a Unix agent.
-                sh "helm dependency update ./mychart"
-                sh "helm lint ./mychart"
-                sh "helm package ./mychart"
-                sh "helm install mytry ./mychart"
-
-                // To run Maven on a Windows agent, use
-                // bat "mvn -Dmaven.test.failure.ignore=true clean package"
-            }
-
+         
          
 
             post {
